@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Roblox Game Redirect</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: lightblue;
+    }
+    
+    .container {
+      text-align: center;
+    }
+  </style>
+  <script>
+    function redirectToDeveloperProducts() {
+      var gameId = document.getElementById('gameId').value;
+      var url = 'https://www.roblox.com/games/' + gameId + '/#!/store/developer-products';
+      window.location.href = url;
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; border-radius: 20px;">Developer Products Finder</h1>
+    <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; border-radius: 20px;">Enter the Roblox game ID: </p>
+    <input type="text" id="gameId" placeholder="Game ID" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; border-radius: 20px;">
+    <button onclick="redirectToDeveloperProducts()" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; border-radius: 20px; cursor: pointer;">Confirm</button>
+  </div>
+</body>
+</html>
