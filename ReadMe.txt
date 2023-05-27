@@ -6,7 +6,7 @@
 4 : Delete your .zip file
 5 : Double-click on your extracted file
 6 : Double-click "index.html"
-7 : Paste your target game
+7 : Paste the ID of your target game
 8 : Click "Confirm"
 9 : Scroll down a bit and you will see all the game's developer products!
 
